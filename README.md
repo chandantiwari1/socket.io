@@ -153,14 +153,3 @@ notificationRoutes.js
 userRoutes.js
 
 ---
-
-## Contributors
-
-- Vaibhav Dhiman <vaibhav.dhiman.my@gmail.com>
-
----
-
-## License & copyright
-
-©️ Vaibhav Dhiman
-# socket.io
