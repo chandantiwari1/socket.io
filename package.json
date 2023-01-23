@@ -1,16 +1,19 @@
 {
-  "name": "noApp",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "concurrently \"npm run dev\" \"cd client && npm start\"",
-    "dev": "nodemon server/server.js",
-    "postbuild": "NPM_CONFIG_PRODUCTION=false npm install --force --prefix client && npm run build --prefix client"
-  },
-  "author": "vars7899",
-  "license": "ISC",
+  "name": "chandanschatapp",
+    "version": "1.0.0",
+    "description": "This one is the assignment by the no app team",
+    "main": "./server/server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "cd ./server && node server.js"
+    },
+    "engines": {
+      "node": "16.x",
+      "npm":"6.x"
+    },
+    "keywords": [],
+    "author": "chandan tiwari",
+    "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "colors": "^1.4.0",
